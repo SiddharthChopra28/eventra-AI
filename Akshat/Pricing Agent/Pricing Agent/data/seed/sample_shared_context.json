@@ -1,0 +1,22 @@
+{
+    "sponsors_found": 12,
+    "top_sponsor_names": ["Google Cloud", "Microsoft Azure", "NVIDIA", "AWS", "IBM"],
+    "estimated_sponsorship_revenue": 120000,
+    "sponsor_tiers": {"title": 1, "gold": 2, "silver": 4, "bronze": 5},
+
+    "speakers_found": 18,
+    "total_speaker_fees": 22000,
+    "session_count": 14,
+    "keynote_count": 3,
+
+    "exhibitors_found": 25,
+    "estimated_booth_revenue": 37500,
+
+    "venue_name": "Pragati Maidan, New Delhi",
+    "venue_capacity": 5500,
+    "venue_cost": 45000,
+    "venue_city": "New Delhi",
+
+    "total_community_reach": 42000,
+    "channels_identified": 8
+}

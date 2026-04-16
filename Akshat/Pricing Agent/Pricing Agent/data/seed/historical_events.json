@@ -1,0 +1,15 @@
+[
+  {
+    "event_name": "Sample AI Conference 2025",
+    "category": "AI",
+    "geography": "India",
+    "year": 2025,
+    "audience_size": 5000,
+    "ticket_price_usd": 100.0,
+    "attendance": 3250,
+    "sponsorship_revenue": 50000.0,
+    "exhibitor_revenue": 20000.0,
+    "speaker_count": 15,
+    "venue_cost": 30000.0
+  }
+]
