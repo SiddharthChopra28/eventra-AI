@@ -1,0 +1,11 @@
+{
+  "agent": "VenueAgent",
+  "query": {
+    "city": "bangalore",
+    "event_type": "tech",
+    "audience_size": 500
+  },
+  "total_found": 0,
+  "sources_used": [],
+  "top_venues": []
+}

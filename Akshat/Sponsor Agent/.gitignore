@@ -1,0 +1,23 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Data (re-scraped on demand)
+data/scraped/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

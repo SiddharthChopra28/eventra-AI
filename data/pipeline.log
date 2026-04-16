@@ -1,0 +1,546 @@
+2026-04-16 18:19:26 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 18:19:26 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 18:19:26 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 18:19:26 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 18:19:26 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 18:19:26 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 18:19:26 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Pune p1 → HTTP 405
+2026-04-16 18:19:27 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:19:27 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:19:27 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:19:27 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:19:27 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Shawn Mendes → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Nothing But Thieves → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Jonita Gandhi → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Aurora → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Hanumankind → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Glass Animals → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] John Summit → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Green Day → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Anushka → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Louis Tomlinson → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] New York p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Hyderabad p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Ahmedabad p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Chandigarh p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Chennai p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Delhi p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Mumbai p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Kolkata p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Bengaluru p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Eventbrite] Jaipur p1 → HTTP 405
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Seedhe Maut → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Euphoria → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Sabrina Carpenter → HTTP 403
+2026-04-16 18:19:27 | WARNING  | [Bandsintown] Kr$na → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Houston p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Chicago p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Dallas p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] San Diego p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] San Antonio p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Philadelphia p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Phoenix p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] San Jose p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Prateek Kuhad → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Chaar Diwaari → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Usha Uthup → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Nucleya → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Raftaar → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Justin Bieber → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] London p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Moscow p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Madrid p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Central Cee → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Karol G → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Luke Combs → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Lady Gaga → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] David Byrne → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Kendrick Lamar → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Berlin p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Los Angeles p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] The Strokes → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Rome p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Bucharest p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Istanbul p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Bandsintown] Jelly Roll → HTTP 403
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Barcelona p1 → HTTP 405
+2026-04-16 18:19:28 | WARNING  | [Eventbrite] Vienna p1 → HTTP 405
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] FKA twigs → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Eventbrite] Singapore p1 → HTTP 405
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Zach Bryan → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Moby → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Eventbrite] Kyiv p1 → HTTP 405
+2026-04-16 18:19:29 | WARNING  | [Eventbrite] Paris p1 → HTTP 405
+2026-04-16 18:19:29 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] The 1975 → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Nile Rodgers → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Olivia Rodrigo → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Rod Stewart → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] T-Pain → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Neil Young → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Tyler, The Creator → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Noah Kahan → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Nelly → HTTP 403
+2026-04-16 18:19:29 | WARNING  | [Bandsintown] Charli XCX → HTTP 403
+2026-04-16 18:19:30 | WARNING  | [Bandsintown] Martin Garrix → HTTP 403
+2026-04-16 18:21:16 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 18:21:16 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 18:21:16 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 18:21:16 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 18:21:16 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 18:21:16 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 18:21:16 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 18:21:16 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:21:16 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:21:16 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:21:16 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:21:16 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Shawn Mendes → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Jonita Gandhi → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] John Summit → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Glass Animals → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Aurora → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Green Day → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Louis Tomlinson → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Hanumankind → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Nothing But Thieves → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Anushka → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Prateek Kuhad → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Raftaar → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Seedhe Maut → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Pune p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Mumbai p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Jaipur p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Bengaluru p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Ahmedabad p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Chennai p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Hyderabad p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Delhi p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Kolkata p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Eventbrite] Chandigarh p1 → HTTP 500
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Kr$na → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Chaar Diwaari → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Justin Bieber → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Nucleya → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Sabrina Carpenter → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Usha Uthup → HTTP 403
+2026-04-16 18:21:17 | WARNING  | [Bandsintown] Euphoria → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Lady Gaga → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] The Strokes → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Karol G → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Kendrick Lamar → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] FKA twigs → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Moby → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Central Cee → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] David Byrne → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Luke Combs → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] San Antonio p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Chicago p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Los Angeles p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] San Diego p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] San Jose p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Dallas p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Philadelphia p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] New York p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Zach Bryan → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Phoenix p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Houston p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Moscow p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Istanbul p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Jelly Roll → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] T-Pain → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] London p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Nelly → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Charli XCX → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Noah Kahan → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Madrid p1 → HTTP 500
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] The 1975 → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Olivia Rodrigo → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Tyler, The Creator → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Rod Stewart → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Bandsintown] Neil Young → HTTP 403
+2026-04-16 18:21:18 | WARNING  | [Eventbrite] Berlin p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Wolf Alice → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Armin van Buuren → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Paris p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Bucharest p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Rome p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Kyiv p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Vienna p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Anyma → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Singapore p1 → HTTP 500
+2026-04-16 18:21:19 | WARNING  | [Eventbrite] Barcelona p1 → HTTP 500
+2026-04-16 18:21:19 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] The Prodigy → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Nile Rodgers → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Snow Patrol → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Dua Lipa → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Turnstile → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Fred again.. → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Calvin Harris → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Martin Garrix → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] G-Dragon → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Babymetal → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Crowded House → HTTP 403
+2026-04-16 18:21:19 | WARNING  | [Bandsintown] Peggy Gou → HTTP 403
+2026-04-16 18:27:54 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 18:27:54 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 18:27:54 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 18:27:54 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 18:27:54 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 18:27:54 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 18:27:54 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 18:27:54 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:27:54 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:27:54 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:27:54 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:27:54 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Louis Tomlinson → HTTP 403
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Hanumankind → HTTP 403
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Anushka → HTTP 403
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Nothing But Thieves → HTTP 403
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Glass Animals → HTTP 403
+2026-04-16 18:27:54 | WARNING  | [Bandsintown] Shawn Mendes → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Green Day → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] John Summit → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Jonita Gandhi → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Aurora → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Sabrina Carpenter → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Delhi p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Jaipur p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Bengaluru p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Mumbai p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Kolkata p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Ahmedabad p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Pune p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Hyderabad p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Chandigarh p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Chennai p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Prateek Kuhad → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Euphoria → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Seedhe Maut → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Chaar Diwaari → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Usha Uthup → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Nucleya → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Raftaar → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Kr$na → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Justin Bieber → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] San Diego p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Houston p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Los Angeles p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Chicago p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] Phoenix p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Eventbrite] San Antonio p1 → HTTP 500
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Kendrick Lamar → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Lady Gaga → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Central Cee → HTTP 403
+2026-04-16 18:27:55 | WARNING  | [Bandsintown] Luke Combs → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Karol G → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Dallas p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] London p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] New York p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Istanbul p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Philadelphia p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Madrid p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Berlin p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] San Jose p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Moscow p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Kyiv p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] The Strokes → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] FKA twigs → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Moby → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] David Byrne → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Zach Bryan → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] T-Pain → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Jelly Roll → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Nelly → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Tyler, The Creator → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Rod Stewart → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Olivia Rodrigo → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Vienna p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Bucharest p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Eventbrite] Barcelona p1 → HTTP 500
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Turnstile → HTTP 403
+2026-04-16 18:27:56 | WARNING  | [Bandsintown] Dua Lipa → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] Noah Kahan → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] Neil Young → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] Charli XCX → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] The 1975 → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] Fred again.. → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Bandsintown] Calvin Harris → HTTP 403
+2026-04-16 18:27:57 | WARNING  | [Eventbrite] Rome p1 → HTTP 500
+2026-04-16 18:27:57 | WARNING  | [Eventbrite] Singapore p1 → HTTP 500
+2026-04-16 18:35:27 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 18:35:27 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 18:35:27 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 18:35:27 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 18:35:27 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 18:35:27 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 18:35:27 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 18:35:28 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:35:28 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:35:28 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:35:28 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:35:28 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Anushka → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Glass Animals → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Jonita Gandhi → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Louis Tomlinson → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Green Day → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] John Summit → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Shawn Mendes → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Aurora → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Hanumankind → HTTP 403
+2026-04-16 18:35:28 | WARNING  | [Bandsintown] Nothing But Thieves → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Prateek Kuhad → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Chaar Diwaari → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Seedhe Maut → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Delhi p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Jaipur p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Mumbai p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Kolkata p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Chandigarh p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Ahmedabad p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Pune p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Chennai p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Bengaluru p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Hyderabad p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Raftaar → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Euphoria → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Justin Bieber → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Kr$na → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] FKA twigs → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] The Strokes → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Usha Uthup → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Nucleya → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] New York p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Sabrina Carpenter → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Philadelphia p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] Dallas p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] San Antonio p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Eventbrite] San Jose p1 → HTTP 500
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Karol G → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Kendrick Lamar → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Lady Gaga → HTTP 403
+2026-04-16 18:35:29 | WARNING  | [Bandsintown] Zach Bryan → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Los Angeles p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] T-Pain → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Phoenix p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Moby → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Central Cee → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Houston p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Istanbul p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] David Byrne → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Luke Combs → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] San Diego p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Moscow p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Neil Young → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Berlin p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] London p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Chicago p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Madrid p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Jelly Roll → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Kyiv p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] The Prodigy → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Tyler, The Creator → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Nelly → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Olivia Rodrigo → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Noah Kahan → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Bucharest p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] The 1975 → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Charli XCX → HTTP 403
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Vienna p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Eventbrite] Singapore p1 → HTTP 500
+2026-04-16 18:35:30 | WARNING  | [Bandsintown] Rod Stewart → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Nile Rodgers → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Eventbrite] Rome p1 → HTTP 500
+2026-04-16 18:35:31 | WARNING  | [Eventbrite] Paris p1 → HTTP 500
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Wolf Alice → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Snow Patrol → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Eventbrite] Barcelona p1 → HTTP 500
+2026-04-16 18:35:31 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Turnstile → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Dua Lipa → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Fred again.. → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Calvin Harris → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Elton John → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Martin Garrix → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Armin van Buuren → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Foo Fighters → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] CL → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Anyma → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Peggy Gou → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Crowded House → HTTP 403
+2026-04-16 18:35:31 | WARNING  | [Bandsintown] Black Eyed Peas → HTTP 403
+2026-04-16 18:41:00 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 18:41:00 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 18:41:00 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 18:41:00 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 18:41:00 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 18:41:00 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 18:41:00 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 18:41:01 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:01 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:01 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:01 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:01 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Green Day → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Louis Tomlinson → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Shawn Mendes → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Glass Animals → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Hanumankind → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] John Summit → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Aurora → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Nothing But Thieves → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Anushka → HTTP 403
+2026-04-16 18:41:01 | WARNING  | [Bandsintown] Jonita Gandhi → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Usha Uthup → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Justin Bieber → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Kr$na → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Prateek Kuhad → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Seedhe Maut → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Chaar Diwaari → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Euphoria → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Nucleya → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Raftaar → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Sabrina Carpenter → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] The Strokes → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Central Cee → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Karol G → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Kendrick Lamar → HTTP 403
+2026-04-16 18:41:02 | WARNING  | [Bandsintown] Lady Gaga → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] FKA twigs → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Moby → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Luke Combs → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] David Byrne → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Zach Bryan → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Jelly Roll → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] T-Pain → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Nelly → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Olivia Rodrigo → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Tyler, The Creator → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] Noah Kahan → HTTP 403
+2026-04-16 18:41:03 | WARNING  | [Bandsintown] The 1975 → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Charli XCX → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Neil Young → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Rod Stewart → HTTP 403
+2026-04-16 18:41:04 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Nile Rodgers → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Fred again.. → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Calvin Harris → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] The Prodigy → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Snow Patrol → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Wolf Alice → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Turnstile → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Peggy Gou → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] G-Dragon → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Dua Lipa → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Martin Garrix → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Armin van Buuren → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Anyma → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Elton John → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] Seventeen → HTTP 403
+2026-04-16 18:41:04 | WARNING  | [Bandsintown] The Smashing Pumpkins → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Alan Walker → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Foo Fighters → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] CL → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Jackson Wang → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] OneRepublic → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Keshi → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] JVKE → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Babymetal → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Crowded House → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Fatboy Slim → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Honne → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Russ → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] David Guetta → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] NIKI → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Black Eyed Peas → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Joji → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Bruno Major → HTTP 403
+2026-04-16 18:41:05 | WARNING  | [Bandsintown] Axwell → HTTP 403
+2026-04-16 18:41:05 | INFO     | [Bandsintown] Total events: 0
+2026-04-16 18:41:31 | ERROR    | [ConcertArchives] Navigation error (Mumbai): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10", waiting until "networkidle"
+
+2026-04-16 18:41:31 | ERROR    | [ConcertArchives] Navigation error (Delhi): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10", waiting until "networkidle"
+
+2026-04-16 18:41:31 | ERROR    | [ConcertArchives] Navigation error (Chennai): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10", waiting until "networkidle"
+
+2026-04-16 18:41:31 | ERROR    | [ConcertArchives] Navigation error (Bengaluru): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10", waiting until "networkidle"
+
+2026-04-16 18:41:31 | ERROR    | [ConcertArchives] Navigation error (Hyderabad): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10", waiting until "networkidle"
+
+2026-04-16 18:41:31 | INFO     | [ConcertArchives] Mumbai: 0 events
+2026-04-16 18:41:31 | INFO     | [ConcertArchives] Delhi: 0 events
+2026-04-16 18:41:31 | INFO     | [ConcertArchives] Chennai: 0 events
+2026-04-16 18:41:31 | INFO     | [ConcertArchives] Bengaluru: 0 events
+2026-04-16 18:41:31 | INFO     | [ConcertArchives] Hyderabad: 0 events
+2026-04-16 18:41:31 | DEBUG    | [ConcertArchives] City=Kolkata → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Kolkata&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:31 | DEBUG    | [ConcertArchives] City=Ahmedabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Ahmedabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:31 | DEBUG    | [ConcertArchives] City=Pune → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Pune&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:31 | DEBUG    | [ConcertArchives] City=Jaipur → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Jaipur&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:31 | DEBUG    | [ConcertArchives] City=Chandigarh → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chandigarh&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 18:41:42 | INFO     | [ConcertArchives] Pune: 0 events
+2026-04-16 18:41:42 | DEBUG    | [ConcertArchives] City=New York → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=New+York&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:07 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 19:06:07 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 19:06:07 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 19:06:07 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 19:06:07 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 19:06:07 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 19:06:07 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 19:06:08 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Mumbai&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:08 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Delhi&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:08 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Chennai&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:08 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Bengaluru&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:08 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Hyderabad&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:11 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 19:06:14 | INFO     | [Bandsintown] Total events: 0
+2026-04-16 19:06:19 | INFO     | [ConcertArchives] Delhi: 0 events
+2026-04-16 19:06:19 | DEBUG    | [ConcertArchives] City=Ahmedabad → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Ahmedabad&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:24 | INFO     | [ConcertArchives] Chennai: 0 events
+2026-04-16 19:06:24 | DEBUG    | [ConcertArchives] City=Kolkata → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Kolkata&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:38 | ERROR    | [ConcertArchives] Navigation error (Mumbai): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Mumbai&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date", waiting until "networkidle"
+
+2026-04-16 19:06:38 | ERROR    | [ConcertArchives] Navigation error (Bengaluru): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Bengaluru&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date", waiting until "networkidle"
+
+2026-04-16 19:06:38 | ERROR    | [ConcertArchives] Navigation error (Hyderabad): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Hyderabad&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date", waiting until "networkidle"
+
+2026-04-16 19:06:38 | INFO     | [ConcertArchives] Mumbai: 0 events
+2026-04-16 19:06:38 | INFO     | [ConcertArchives] Bengaluru: 0 events
+2026-04-16 19:06:38 | INFO     | [ConcertArchives] Hyderabad: 0 events
+2026-04-16 19:06:38 | DEBUG    | [ConcertArchives] City=Pune → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Pune&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:38 | DEBUG    | [ConcertArchives] City=Jaipur → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Jaipur&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:38 | DEBUG    | [ConcertArchives] City=Chandigarh → https://www.concertarchives.org/concert-search-engine?locations_query%5B%5D=Chandigarh&location_match_type=or&date_after%5Bmonth%5D=1&date_after%5Bday%5D=1&date_after%5Byear%5D=2025&date_before%5Bmonth%5D=4&date_before%5Bday%5D=10&date_before%5Byear%5D=2026&sort_by=latest_date
+2026-04-16 19:06:46 | INFO     | 🎵  Event Pipeline Starting  🎵
+2026-04-16 19:06:46 | INFO     | Date range: 2025-01-01 → 2026-04-10
+2026-04-16 19:06:46 | INFO     | Cities: 32 | Artists: 74
+2026-04-16 19:06:46 | INFO     | Starting Phase 1: Data Ingestion
+2026-04-16 19:06:46 | INFO     | ═══ Phase 1-A: ConcertArchives ═══
+2026-04-16 19:06:46 | INFO     | ═══ Phase 1-B: Bandsintown ═══
+2026-04-16 19:06:46 | INFO     | ═══ Phase 1-C: Eventbrite ═══
+2026-04-16 19:06:46 | DEBUG    | [ConcertArchives] City=Mumbai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Mumbai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:46 | DEBUG    | [ConcertArchives] City=Chennai → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Chennai&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:46 | DEBUG    | [ConcertArchives] City=Delhi → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Delhi&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:46 | DEBUG    | [ConcertArchives] City=Bengaluru → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Bengaluru&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:46 | DEBUG    | [ConcertArchives] City=Hyderabad → https://www.concertarchives.org/concert-search-engine?search-type=advanced&location=Hyderabad&date_from=2025-01-01&date_to=2026-04-10
+2026-04-16 19:06:49 | INFO     | [Eventbrite] Total events: 0
+2026-04-16 19:06:51 | INFO     | [Bandsintown] Total events: 0
