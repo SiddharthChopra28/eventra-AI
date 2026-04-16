@@ -1,3 +1,4 @@
+from langchain_core.tools import tool
 from langchain_community.tools.tavily_search import TavilySearchResults
 
 TAVILY_API_KEY = "YOUR_TAVILY_API_KEY_HERE"

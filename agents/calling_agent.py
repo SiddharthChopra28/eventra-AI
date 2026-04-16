@@ -12,8 +12,7 @@ from twilio.rest import Client as TwilioClient
 from piper.voice import PiperVoice
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.agents import AgentExecutor, create_tool_calling_agent
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage, AIMessage
 
 from config import GEMINI_API_KEY, NGROK_HOST, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_FROM, TWILIO_TO
@@ -35,7 +34,7 @@ class TwilioAgent:
         self.tw_client = TwilioClient(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
         # Piper TTS
-        self.global_piper_voice = PiperVoice.load("static/en_US-danny-low.onnx")
+        self.global_piper_voice = PiperVoice.load("agents/static/en_US-danny-low.onnx")
 
         # Whisper STT
         print("Loading Whisper model...")
@@ -49,20 +48,19 @@ class TwilioAgent:
 
         self._register_routes()
 
-    def _build_agent(self) -> AgentExecutor:
+    def _build_agent(self):
         llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
             google_api_key=GEMINI_API_KEY,
             temperature=0.7,
         )
-        prompt = ChatPromptTemplate.from_messages([
-            ("system", SYSTEM_PROMPT),
-            MessagesPlaceholder(variable_name="chat_history"),
-            ("human", "{input}"),
-            MessagesPlaceholder(variable_name="agent_scratchpad"),
-        ])
-        agent = create_tool_calling_agent(llm, ALL_TOOLS, prompt)
-        return AgentExecutor(agent=agent, tools=ALL_TOOLS, verbose=True)
+        # Reference: https://langchain-ai.github.io/langgraph/how-tos/create-react-agent/
+        agent = create_react_agent(
+            llm, 
+            tools=ALL_TOOLS, 
+            prompt=SYSTEM_PROMPT
+        )
+        return agent
 
     def _register_routes(self):
         # HTTP route — uses self.app directly
@@ -139,18 +137,30 @@ class TwilioAgent:
             transcript = result["text"].strip()
             print(f"Transcript: '{transcript}'")
 
-            if not transcript:
+            if not transcript or len(transcript) == 0:
+                print("Empty transcript detected. Skipping LLM call.")
                 return
 
+            chat_history.append(HumanMessage(content=transcript))
+
+            # https://langchain-ai.github.io/langgraph/how-tos/create-react-agent/
             agent_result = self.agent_executor.invoke({
-                "input": transcript,
-                "chat_history": chat_history,
+                "messages": chat_history,
             })
-            llm_response = agent_result["output"].strip()
+            
+            # The result dict contains the updated "messages" list
+            updated_messages = agent_result["messages"]
+            
+            # The final AI response
+            llm_response = ""
+            if updated_messages and isinstance(updated_messages[-1], AIMessage):
+                llm_response = updated_messages[-1].content.strip()
+                
             print(f"LLM Response: '{llm_response}'")
 
-            chat_history.append(HumanMessage(content=transcript))
-            chat_history.append(AIMessage(content=llm_response))
+            # Update history to retain full conversation state
+            chat_history.clear()
+            chat_history.extend(updated_messages)
 
             reply_audio = self.generate_twilio_base64_audio(llm_response)
             if reply_audio and stream_sid:
@@ -161,6 +171,8 @@ class TwilioAgent:
                 }))
 
         except Exception as e:
+            import traceback
+            traceback.print_exc()
             print(f"ERROR in transcribe_and_respond: {e}")
 
     def generate_twilio_base64_audio(self, text: str) -> str:
