@@ -1,0 +1,29 @@
+{
+  "agent": "ArtistAgent",
+  "query": {
+    "city": "bangalore",
+    "event_type": "music",
+    "audience_size": 500
+  },
+  "total_found": 1,
+  "sources_used": [
+    "Songkick"
+  ],
+  "top_artists": [
+    {
+      "name": "Chintan Kalra",
+      "city": "bangalore",
+      "genre": "music",
+      "source": "Songkick",
+      "upcoming_events": null,
+      "popularity_score": 3.2,
+      "profile_url": "https://www.songkick.com/metro-areas/29403-india-bangalore",
+      "notes": null,
+      "tags": [
+        "upcoming",
+        "city_concert"
+      ],
+      "relevance_score": 0.688
+    }
+  ]
+}
